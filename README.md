@@ -56,6 +56,7 @@ This is work in progress: please contribute by sending your suggestions. You may
     - [Hardware - CPU - BIOS - UEFI](#hardware---cpu---bios---uefi-1)
     - [Docker](#docker)
     - [Cloud](#cloud-1)
+    - [DNS](#dns-1)
   - [Tools to apply security hardening](#tools-to-apply-security-hardening)
     - [GNU/Linux](#gnulinux-2)
     - [Windows](#windows-2)
@@ -84,7 +85,7 @@ This is work in progress: please contribute by sending your suggestions. You may
 
 ## GNU/Linux
 
-- [ANSSI - Configuration recommendations of a GNU/Linux system](https://www.ssi.gouv.fr/en/guide/configuration-recommendations-of-a-gnulinux-system/)
+- [ANSSI - Configuration recommendations of a GNU/Linux system](https://messervices.cyber.gouv.fr/documents-guides/linux_configuration-en-v2.pdf)
 - [CIS Benchmark for Distribution Independent Linux](https://www.cisecurity.org/benchmark/distribution_independent_linux/)
 - [trimstray - The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide) - practical step-by-step instructions for building your own hardened systems and services. Tested on CentOS 7 and RHEL 7.
 - [trimstray - Linux Hardening Checklist](https://github.com/trimstray/linux-hardening-checklist) - most important hardening rules for GNU/Linux systems (summarized version of The Practical Linux Hardening Guide) 
@@ -376,6 +377,10 @@ See also [Active Directory](#active-directory) and [ADFS](#adfs) below.
 ### Cloud
 
 - [toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
+
+### DNS
+
+- [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC, BIMI, MTA-STS configuration and provides AI-powered fix suggestions.
 
 ## Tools to apply security hardening
 
